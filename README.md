@@ -46,6 +46,10 @@ getAnimesByGenre();
 - Genre:
   - Anime Listing (All Anime by Genre);
   - Manga Listing (All Anime by Genre).
+- Character:
+  - Main Information.
+- Person:
+  - Main Information.
 
 ---
 
