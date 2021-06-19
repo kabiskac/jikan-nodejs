@@ -6,7 +6,13 @@
   "author": "ribeirogab <ribeirogabx@gmail.com>",
   "license": "MIT",
   "description": "A Node.js wrapper for Jikan REST API.",
-  "keywords": ["myanimelist", "wrapper", "manga", "anime", "jikan"],
+  "keywords": [
+    "myanimelist",
+    "wrapper",
+    "manga",
+    "anime",
+    "jikan"
+  ],
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --no-notify --transpileOnly --ignore-watch node_modules src/server.ts"

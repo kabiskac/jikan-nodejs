@@ -8,4 +8,3 @@ examples
 .eslintrc.json
 .gitignore
 prettier.config.js
-tsconfig.json
