@@ -1,16 +1,5 @@
-interface Anime {
-  mal_id: number;
-  url: string;
-  image_url: string;
-  name: string;
-}
-
-interface Character {
-  mal_id: string;
-  url: string;
-  image_url: string;
-  name: string;
-}
+import Character from '../character/SimpleInformation';
+import Manga from '../manga/SimpleInformation';
 
 interface VoiceActingRole {
   role: string;
@@ -25,16 +14,9 @@ interface AnimeStaffPosition {
   name: string;
 }
 
-interface Manga {
-  mal_id: string;
-  url: string;
-  image_url: string;
-  name: string;
-}
-
 interface PublishedManga {
   position: string;
-  manga: Manga;
+  manga: Manga
 }
 
 export default interface MainInformation {
